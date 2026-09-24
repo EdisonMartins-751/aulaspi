@@ -75,8 +75,8 @@
 									<td th:text="${c.nome}">Fernando</td>
 									<td th:text="${c.rg}">123</td>
 									<td>
-										<a th:href="@{/eventos/{idEvento}/convidados/{idCovidado}/selecionar(idEvento=${evento.id}, idCovidado=${c.id})}"><i class="material-icons">edit</i></a>
-										<a th:href="@{/eventos/{idEvento}/convidados/{idCovidado}/remover(idEvento=${evento.id}, idConvidado=${c.id})}"> <i class="material-icons">delete</i></a>
+										<a th:href="@{/eventos/{idEvento}/convidados/{idConvidado}/selecionar(idEvento=${evento.id}, idConvidado=${c.id})}"><i class="material-icons">edit</i></a>
+										<a th:href="@{/eventos/{idEvento}/convidados/{idConvidado}/remover(idEvento=${evento.id}, idConvidado=${c.id})}"> <i class="material-icons">delete</i></a>
 									</td>
 								</tr>
 							</tbody>
